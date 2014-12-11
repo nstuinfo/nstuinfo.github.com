@@ -24,7 +24,7 @@
 
 <ul class="listview">
 	<a href="/introduction.html"><li>Introduction</li></a>
-	<a href="/regent.html"><li>Regent Board</li></a>
+	<a href="/regent.html"><li>Regent Board</a></li>
 	<a href="/academic_council.html"><li>Academic Council</li></a>
 	<a href="/committes.html"><li>Committees</li></a>
 	<a href="/registeroffice.html"><li>Register office</li></a>
