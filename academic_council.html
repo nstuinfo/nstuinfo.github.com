@@ -65,6 +65,27 @@ margin-left: 20px;
 margin-left: 40px;
 }
 </style>
+<script type="text/javascript" src="file:///android_asset/js/jquery.min.js"></script>
+<script type="text/javascript" src="file:///android_asset/js/simple-expand.min.js"></script>
+<script type="text/javascript" src="/android_asset/js/jquery.min.js"></script>
+<script type="text/javascript" src="/android_asset/js/simple-expand.min.js"></script>
+
+<script type="text/javascript">
+$(function () {
+$('.expander').simpleexpand();
+});
+
+
+$( document ).ready(function() {
+    if(window.location.toString() != "about:blank"){
+        var email_url = "/android_asset/images/email.png";
+        $(".Email").css("background-image", "url("+ email_url+")");
+
+        var call_url = "/android_asset/images/call.png";
+        $(".telephone").css("background-image", "url("+ call_url+")");
+    }
+});
+</script>
 </head>
 
 <div class="maintitle">Academic Council</div>
